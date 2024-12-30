@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  background-color: #ff0606; /* Red background */
+  color: rgb(9, 251, 255);
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5em;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(243, 18, 18, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1:hover {
+  background-color: #fb5901; /* Darker red on hover */
+  color: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  background-image: url('https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?cs=srgb&dl=pexels-minan1398-853168.jpg&fm=jpg'); /* Add your background image URL here */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-content {
+  background-color: rgba(255, 255, 255, 0.5); /* Very light transparent background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(202, 49, 49, 0.1);
+  width: 400px; /* Adjusted width for better appearance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
